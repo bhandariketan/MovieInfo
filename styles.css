@@ -1,0 +1,200 @@
+.bg-dark{
+  background-color: black!important;
+}
+body {
+  font-family: sans-serif;
+}
+
+div{
+  display: block;
+}
+
+.card {
+  width: 180px;
+  padding: 0!important;
+  margin-bottom: 30px;
+  border: none;
+  overflow: hidden;
+  border-radius: 2px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.movie-list{
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.container2 {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 900px;
+}
+
+.container2 ::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.moviehead{
+  position: relative;
+}
+
+.movieimg{
+  float: left;
+  max-width: 250px;
+  margin: 25px 10px 10px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+img{
+  width: 95%;
+  height: auto;
+}
+
+.movieimg img{
+  border-radius: 5px;
+  max-width: 100%;
+  width: 250px;
+}
+.overview {
+  max-width: 610px;
+  float: left;
+  line-height: 20px;
+  margin: 25px 10px 0;
+}
+
+.overview-text {
+  margin-top: 10px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.card-body{
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px;
+  padding-top: 3mm;
+  padding-bottom: 4mm;
+}
+
+.navbar-brand{
+  margin-left: 60mm;
+}
+
+
+
+.form-control{
+  background-color: #2F2F2F;
+  border-color: #2F2F2F;
+  color: #2F2F2F;
+}
+
+form{
+  margin-right: 60mm;
+}
+
+.image {
+  border-radius: 5px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.corner {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  left: 85%;
+  top: 68%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
+
+.card:hover .corner {
+  opacity: 1;
+}
+
+.text {
+  font-size: 50px;
+}
+
+.icon {
+  font-size: 28px;
+}
+
+#heart {
+  color: black;
+}
+
+#heart:hover {
+  color: red;
+  font-size: 35px;
+}
+
+#favheart {
+  color: red;
+}
+
+#favheart:hover {
+  color: black;
+  font-size: 40px;
+}
+
+#info {
+  color: black;
+}
+
+#info:hover {
+  color: blue;
+  font-size: 60px;
+}
+
+#fav {
+  background-color: #4CAF50;
+  border-radius: 85px;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
